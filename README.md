@@ -1,9 +1,8 @@
 # NorwayCard
-Card for Android certification course, first deliverable
+Card for Udacity-Google scholarship for Android certification course, first deliverable: Single page Android app
 
-##Info from course
+##Info from course: Make Your Own Card
 
-Make Your Own Card
 Okay, so at this point we want to set you loose. Instead of following along with a pre-made design, you’ll now make your own card. The final practice for this lesson will have a few steps.
 
 ###Step 1: Draw your Card
