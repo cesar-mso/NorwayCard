@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cesar.norwaycard.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_bg"
+        android:src="@drawable/bg"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/text_H1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:text="live life"
+        android:textSize="60sp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <TextView
+        android:id="@+id/text_H2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-18dp"
+        android:layout_below="@id/text_H1"
+
+        android:text="on the edge"
+        android:textSize="42sp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <TextView
+        android:id="@+id/text_strapLine"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+
+        android:paddingTop="16dp"
+        android:paddingLeft="32dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="16dp"
+
+        android:background="#CCFFFFFF"
+
+        android:text="Love, from Norway"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+
+        android:fontFamily="sans-serif-light" />
+
+
+</RelativeLayout>
