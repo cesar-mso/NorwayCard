@@ -13,71 +13,56 @@
         android:layout_width="match_parent"
         android:scaleType="centerCrop"
         android:adjustViewBounds="false"
-        android:scrollY="-56dp" />
+        android:scrollY="-56dp"
+        />
 
     <TextView
         android:id="@+id/text_H1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
         android:text="live life"
         android:textSize="42sp"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-
         android:fontFamily="sans-serif-condensed"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/text_H2"
-        android:layout_alignStart="@+id/text_H2" />
+        />
 
     <TextView
         android:id="@+id/text_H2"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="-12dp"
         android:layout_below="@id/text_H1"
-
         android:text="on the edge"
         android:textSize="29sp"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textStyle="normal"
-
         android:fontFamily="sans-serif-condensed"
         />
 
     <TextView
         android:id="@+id/text_strapLine"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="40dp"
-
+        android:background="#FFFFFF"
         android:paddingTop="16dp"
         android:paddingLeft="48dp"
         android:paddingBottom="20dp"
         android:paddingRight="48dp"
-
-        android:background="#FFFFFFFF"
-
         android:text="Love from Preikestolen, Norway"
         android:textSize="24sp"
         android:textColor="#000000"
         android:textStyle="italic"
-
         android:fontFamily="sans-serif-light"
-
-
-
         />
-
-
-
 
 </RelativeLayout>
