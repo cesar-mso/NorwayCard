@@ -8,3 +8,5 @@ Card for Udacity-Google scholarship for Android certification course, first deli
 * Step 3: Make your Card
 * Step 4: Explain your Card
 * Step 5: Share your Card
+
+## Testing accounts on MAC
